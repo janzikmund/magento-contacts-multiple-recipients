@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Janzikmund_Customcontact>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Janzikmund_Customcontact>
+    </modules>
+</config>

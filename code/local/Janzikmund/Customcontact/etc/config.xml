@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Janzikmund_Customcontact>
+            <version>1.0.0</version>
+        </Janzikmund_Customcontact>
+    </modules>
+    <frontend>
+        <routers>
+            <contacts>
+                <args>
+                    <modules>
+                        <Janzikmund_Customcontact before="Mage_Contacts">Janzikmund_Customcontact</Janzikmund_Customcontact>
+                    </modules>
+                </args>
+            </contacts>
+        </routers>
+    </frontend>
+</config>
